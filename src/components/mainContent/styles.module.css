@@ -1,0 +1,8 @@
+.mainContext_container {
+  display: flex;
+  background-color: #5ecfff;
+  width: 100%;
+  padding: 64px 130px 102px 130px;
+  gap: 110px;
+  height: 100%;
+}
