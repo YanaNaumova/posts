@@ -87,3 +87,8 @@
   font-weight: 700;
   font-size: 16;
 }
+
+.errors {
+  color: red;
+  font-size: 10px;
+}

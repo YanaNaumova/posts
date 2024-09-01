@@ -5,4 +5,5 @@
   padding: 64px 130px 102px 130px;
   gap: 110px;
   height: 100%;
+  flex-wrap: wrap;
 }

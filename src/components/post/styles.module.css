@@ -1,0 +1,102 @@
+.post_container {
+  display: flex;
+  width: 100%;
+  max-width: 814px;
+  height: auto;
+  background-color: rgba(63, 92, 192, 0.8);
+  border-radius: 15px;
+  padding: 16px 22px 13px;
+  justify-content: space-between;
+}
+
+.user_logo_container {
+  display: flex;
+  gap: 10px;
+  margin-right: 0;
+  /* margin-right: 48px; */
+  flex-wrap: nowrap;
+  height: min-content;
+  border-right: 1px solid rgba(0, 0, 0, 0.2);
+  padding-right: 20px;
+  align-items: center;
+}
+
+.user_logo_container_text {
+  font-weight: 700;
+  font-size: clamp(12px, 2vw, 16px);
+  color: rgba(9, 8, 8, 0.8);
+  flex: 1;
+}
+
+.post_text_container {
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+}
+
+.post_text_container h1 {
+  font-weight: 700;
+  font-size: clamp(22px, 3vw, 55px);
+  color: rgba(9, 8, 8, 0.8);
+}
+
+.post_text_container_text {
+  font-weight: 700;
+  font-size: clamp(16px, 3vw, 32px);
+  color: rgba(9, 8, 8, 0.8);
+}
+
+.btn_container {
+  display: flex;
+  flex-direction: column;
+  gap: 49px;
+  align-items: flex-end;
+  margin-left: 0;
+  /* margin-left: 103.57px; */
+}
+
+.user_logo {
+  width: 42px;
+  height: 42px;
+}
+
+.btn_container p {
+  font-weight: 700;
+  font-size: clamp(12px, 2vw, 16px);
+  color: rgba(9, 8, 8, 0.8);
+}
+
+.btn_container button {
+  font-weight: 700;
+  font-size: clamp(12px, 4vw, 16px);
+  color: rgba(9, 8, 8, 0.8);
+  padding: 8px 11px;
+  background-color: rgba(13, 61, 48, 0.4);
+  border: none;
+  max-width: 94px;
+  height: 37px;
+}
+
+.input_header {
+  border: none;
+}
+
+.text_area {
+  border: none;
+  resize: none;
+}
+
+.errors {
+  color: red;
+  font-size: 10px;
+}
+
+.btn {
+  background-color: rgba(13, 61, 48, 0.4);
+  border: none;
+  width: 142px;
+  padding: 9px 17px;
+  color: rgba(9, 8, 8, 0.8);
+  font-weight: 700;
+  font-size: 16;
+}
