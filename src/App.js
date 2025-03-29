@@ -18,7 +18,7 @@ function App() {
 
   const [isEdit, setIsEdit] = useState(false);
 
-  const BASE_URL = "https://66ced69b901aab24841fc6d9.mockapi.io/";
+  const BASE_URL = "https://67e8642620e3af747c4126aa.mockapi.io/";
 
   // async function getPost(id) {
   //   try {
